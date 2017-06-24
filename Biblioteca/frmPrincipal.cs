@@ -22,7 +22,7 @@ namespace Biblioteca
             try
             {   
                 novoLivro.Titulo = Auxilio.validarCampoTexto(tbTitulo.Text) ? tbTitulo.Text.Trim() : throw new Exception("Campo 'Título' inválido");
-                novoLivro.Isbn = Auxilio.validarCampoTexto(tbIsbn.Text) ? tbIsbn.Text.Trim() : throw new Exception("Campo 'ISBN' inválido");
+                novoLivro.Isbn = Auxilio.validarCampoTexto(tbIsbn.Text) && Auxilio.ValidarIsbn(tbIsbn.Text) ? tbIsbn.Text.Trim() : throw new Exception("Campo 'ISBN' inválido");
                 novoLivro.Autor = Auxilio.validarCampoTexto(tbAutor.Text) ? tbAutor.Text.Trim() : throw new Exception("Campo 'Autor' inválido");
                 novoLivro.Editora = Auxilio.validarCampoTexto(tbEditora.Text) ? tbEditora.Text.Trim() : throw new Exception("Campo 'Editora' inválida");
                 novoLivro.AnoPub = Auxilio.validarAno(mskAnoPub.Text.Trim()) ? Convert.ToInt32(mskAnoPub.Text.Trim()) : throw new Exception("Campo 'Ano de publicação' inválido");

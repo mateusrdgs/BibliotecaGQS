@@ -40,7 +40,6 @@
             this.lbEditora = new System.Windows.Forms.Label();
             this.lbAutor = new System.Windows.Forms.Label();
             this.lbIsbn = new System.Windows.Forms.Label();
-            this.tbIsbn = new System.Windows.Forms.TextBox();
             this.tbTitulo = new System.Windows.Forms.TextBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnLimparCampos = new System.Windows.Forms.Button();
@@ -53,6 +52,7 @@
             this.clmAnoPub = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmEdicao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmPaginas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tbIsbn = new System.Windows.Forms.TextBox();
             this.gbCadLivro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvListaLivro)).BeginInit();
             this.SuspendLayout();
@@ -190,14 +190,6 @@
             this.lbIsbn.TabIndex = 5;
             this.lbIsbn.Text = "ISBN";
             // 
-            // tbIsbn
-            // 
-            this.tbIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbIsbn.Location = new System.Drawing.Point(6, 132);
-            this.tbIsbn.Name = "tbIsbn";
-            this.tbIsbn.Size = new System.Drawing.Size(281, 26);
-            this.tbIsbn.TabIndex = 1;
-            // 
             // tbTitulo
             // 
             this.tbTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -302,6 +294,14 @@
             this.clmPaginas.Name = "clmPaginas";
             this.clmPaginas.ReadOnly = true;
             // 
+            // tbIsbn
+            // 
+            this.tbIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbIsbn.Location = new System.Drawing.Point(6, 132);
+            this.tbIsbn.Name = "tbIsbn";
+            this.tbIsbn.Size = new System.Drawing.Size(281, 26);
+            this.tbIsbn.TabIndex = 1;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -330,7 +330,6 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.TextBox tbTitulo;
         private System.Windows.Forms.Label lbIsbn;
-        private System.Windows.Forms.TextBox tbIsbn;
         private System.Windows.Forms.Label lbPaginas;
         private System.Windows.Forms.Label lbEditora;
         private System.Windows.Forms.Label lbAutor;
@@ -348,6 +347,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clmAnoPub;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmEdicao;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmPaginas;
+        private System.Windows.Forms.TextBox tbIsbn;
     }
 }
 
