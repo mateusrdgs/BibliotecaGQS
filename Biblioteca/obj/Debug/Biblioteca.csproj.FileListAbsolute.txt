@@ -1,0 +1,9 @@
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frmPrincipal.resources
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.Cache
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+D:\Documentos\Visual Studio\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
